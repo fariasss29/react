@@ -1,0 +1,18 @@
+function Titulo() {
+
+    let nome = "kaue";
+    const soma = 10 * 10;
+    const urlImg = "https://nxboats.com.br/wp-content/uploads/2023/11/Lamborghini-575x360.jpg";
+    
+    
+    return(
+        <div>
+            <h1>oi me chamo {soma}</h1>
+            <img width={450} src={urlImg} />
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad similique totam tenetur facere quis ut maxime nostrum quaerat reiciendis architecto corporis dolores officia dolorum necessitatibus laudantium, a soluta, non doloribus.</p>
+            </div> 
+    )
+  }
+  
+  export default Titulo;
+  
