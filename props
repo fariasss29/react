@@ -1,0 +1,31 @@
+import Titulo from "./Titulo"
+
+function App() {
+  return(
+  <div>
+  <Titulo cor = "blue" nome = "kaue" paragrafo={true} />
+  </div>
+  )
+}
+
+export default App;
+
+
+//titulo arquivo separado 
+
+function Titulo({ nome, paragrafo, cor }) {
+     return(
+        <div>
+            <h1 style={{color: cor}}>oi me chamo {nome ? nome : "gozanaro"}</h1>
+            {paragrafo ? 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad similique totam tenetur facere quis ut maxime nostrum quaerat reiciendis architecto corporis dolores officia dolorum necessitatibus laudantium, a soluta, non doloribus.</p>
+             :
+             <p>nada</p>        
+        }
+
+        </div> 
+    )
+  }
+  
+  export default Titulo;
+    
